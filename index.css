@@ -1,0 +1,43 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Roboto";
+}
+.header {
+  font-size: 24px;
+  color: #0f172a;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.small {
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #fbbf24;
+  height: 30%;
+  width: 30p%;
+}
+.medium {
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #38bdf8;
+  height: 60%;
+  width: 60%;
+}
+.large {
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #ec4899;
+  height: 100%;
+  width: 100%;
+}
